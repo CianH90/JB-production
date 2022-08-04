@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JB Production</title>
+
+    <!-- CSS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/classy-nav.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- JS Library -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bf13f55ede.js" crossorigin="anonymous"></script>
+    <script src="./js/owl.carousel.js" defer></script>
+
+    <!-- Custom JS -->
+    <script src="./js/script.js" defer></script>
+    <script src="./js/audioplayer.js"></script>
+
+</head>
+<body>
+    <div id="bgOverlay"></div>
+    <div id='popBg'></div>
+
+    <div class='main'>
+
+        <!-- Header -->
+        <header class="header-area">
+            <!-- Navbar Area -->
+            <div id="sticky-wrapper" class="sticky-wrapper">
+                <div class="oneMusic-main-menu" >
+                    <div class="classy-nav-container breakpoint-off">
+                        <div class="container">
+                            <!-- Menu -->
+                            <nav class="classy-navbar justify-content-between" id="oneMusicNav">
+    
+                                <!-- Nav brand -->
+                                <div class="logo-text">
+                                    <a href="index.html" class="">
+                                        JB Production
+                                        <!-- <img src="img/core-img/logo.png" alt=""> -->
+                                    </a>
+                                </div>
+    
+                                <!-- Navbar Toggler -->
+                                <div class="classy-navbar-toggler">
+                                    <span class="navbarToggler"><span></span><span></span><span></span></span>
+                                </div>
+    
+                                <!-- Menu -->
+                                <div class="classy-menu">
+    
+                                    <!-- Close Button -->
+                                    <div class="classycloseIcon">
+                                        <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                    </div>
+    
+                                    <!-- Nav Start -->
+                                    <div class="classynav">
+                                        <ul>
+                                            <li><a href="#" onclick="scroll_to_element('home-section', event)">Home</a></li>
+                                            <li><a href="#" onclick="scroll_to_element('about-section', event)">About</a></li>
+                                            <li><a href="#" onclick="scroll_to_element('work-section', event)">My Work</a></li>
+                                            <li><a href="#" onclick="scroll_to_element('contact-section', event)">Contact</a></li>
+                                        </ul>
+    
+                                    </div>
+                                    <!-- Nav End -->
+    
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Hero Section -->
+        <section class="hero-area" id="home-section">
+            <!-- <div class="hero-slides owl-carousel"> -->
+            <div class="hero-slides">
+                <!-- Single Hero Slide -->
+                <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                    <!-- Slide Img -->
+                    <div class="slide-img bg-img" style="background-image: url(img/forest.jpg);"></div>
+                    <!-- <div class="slide-img bg-img" style="background-image: url(img//bg-img/bg-1.jpg);"></div> -->
+                    <div class="bg-overlay"></div>
+                    <!-- Slide Content -->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="hero-slides-content text-center">
+                                    <h2 data-animation="fadeInUp" data-delay="100ms">Jude Bilsborough</h2>
+                                    <h2 data-animation="fadeInUp" data-delay="0ms" style="font-size: 1rem;">Music Production <span>Music Production</span></h2>
+                                    <a data-animation="fadeInUp" data-delay="500ms" href="#work-section" class="btn oneMusic-btn mt-30">Music <i class="ion-ios-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- About  -->
+        <div class="about_area" id="about-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-5 col-md-6">
+                        <div class="about_thumb">
+                            <img class="img-fluid" src="img/jude.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-md-6">
+                        <div class="about_info">
+                            <h3>Jude</h3>
+                            <p style="font-size: 1.2rem;">I am currently studying music production at Spirit Studios in Manchester. My goal is to produce music in the TV and movie industry and eventually open up my own recording studio.</p>
+                            <div class="signature">
+                                <img src="img/signature.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Our Work -->
+        <section class="work-section" id="work-section"> 
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-heading style-2">
+                            <h2>Our Work</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-9">
+                        <div class="ablums-text text-center mb-70">
+                            <p style="font-size: 1.2rem;">Here are some samples of my most recent work, feel free to get in touch to via contact form or social media.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center justify-content-center mb-20">
+                    <div class="col-md-6 col-sm-12">
+                        <audio preload="auto" controls>
+                            <source src="audio/web-demo.mp3">
+                        </audio>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <audio preload="auto" controls>
+                            <source src="audio/nem-web-demo.mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact -->
+        <section class="contact-section" id="contact-section">
+            <div class="row">
+                <div class="col-12">
+                  <h2 class="contact-title">Get in Touch</h2>
+                </div>
+                <div class="col-lg-12">
+                  <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                    <div class="row">
+
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your first name'" placeholder = 'Enter your first name'>
+                        </div>
+                      </div>
+                      <div class="col-sm-6">
+                        <div class="form-group">
+                          <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your last name'" placeholder = 'Enter your last name'>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-group">
+                          <input class="form-control" name="email" id="email" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'" placeholder = 'Enter email address'>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-group">      
+                            <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group mt-2">
+                      <button type="submit" class="button button-contactForm btn_4 boxed-btn">Send Message</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-inner-div">
+                <div class="footer-top">
+                    <div class="logo">
+                        <a href="./">
+                            JB Production
+                        </a>
+                    </div>
+                    <div class='socials'>
+                        <div title='facebook' class='social' id='social-1'>
+                            <a href="https://www.facebook.com/jude.bilsborough.5"></a>
+                        </div>
+                        <div title='instagram' class='social' id='social-3'>
+                            <a href="https://www.instagram.com/jude_bilsborough/"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="copyright-text">
+                        Coypright © JB Production <br /> Designed By <a target="_blank" href="https://www.facebook.com/cian.egan.50">Cian Healy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+        
+</body>
+</html>

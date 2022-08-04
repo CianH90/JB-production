@@ -1,0 +1,156 @@
+/* Header */
+@media only screen and (max-width:767px) {
+    .header-area .oneMusic-main-menu {
+        height: 70px;
+    }
+    .header-area .oneMusic-main-menu .classy-navbar {
+        height: 70px;
+    }
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
+        background-color: #000;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+        color: #fff;
+        padding: 0 30px;
+        border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
+        border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    .header-area .oneMusic-main-menu .login-register-cart-button {
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+    .header-area .is-sticky .oneMusic-main-menu {
+        height: 70px;
+    }
+    .breakpoint-on .classy-navbar .classy-menu {
+        background-color: #000;
+    }
+    .classynav ul li .megamenu .single-mega.cn-col-4 {
+        padding: 0;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li a {
+        background-color: #000;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+        color: #fff;
+        padding: 0 30px;
+        border-bottom-color: rgba(255, 255, 255, 0.1);
+    }
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li .dropdown li .dropdown li .dropdown li a {
+        border-bottom-color: rgba(255, 255, 255, 0.1) !important;
+    }
+    .header-area .oneMusic-main-menu .login-register-cart-button {
+        margin-left: 12px;
+        margin-top: 15px;
+    }
+    .breakpoint-on .classy-navbar .classy-menu {
+        background-color: #000;
+    }
+    .classynav ul li .megamenu .single-mega.cn-col-4 {
+        padding: 0;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .header-area .oneMusic-main-menu .classy-navbar .classynav ul li ul li a {
+        padding: 0 15px;
+    }
+}
+/* Home */
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .single-hero-slide {
+        height: 700px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .single-hero-slide {
+        height: 650px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .single-hero-slide {
+        height: 500px;
+    }
+    .single-hero-slide .hero-slides-content h6 {
+        letter-spacing: 5px;
+    }
+    .single-hero-slide .hero-slides-content h6 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .single-hero-slide .hero-slides-content h2 {
+        letter-spacing: 15px;
+        font-size: 42px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .single-hero-slide .hero-slides-content h2 {
+        letter-spacing: 5px;
+        font-size: 23px;
+    }
+}
+/* About */
+@media (max-width: 767px) {
+    .about_area {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .about_area .about_info {
+        padding-left: 0;
+    }
+} 
+@media (min-width: 768px) and (max-width: 991px) {
+    .about_area {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .about_area .about_info {
+        padding-left: 0;
+    }
+}
+/* Audio Player */
+@media screen and (max-width: 679px) {
+    .audioplayer-volume-adjust {
+        display: none;
+    }
+}
+/* Contact */
+@media (min-width: 768px) and (max-width: 991px) {
+    .boxed-btn {
+        padding: 12px 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .contact-section {
+        padding: 70px 0 40px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .contact-section {
+        padding: 80px 0 50px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .contact-section {
+        max-width: 90%;
+    }    
+}
+/* Footer */
+@media screen and (max-width: 991px) {
+    footer .logo a {
+        letter-spacing: 2px;
+        font-size: 16px;
+    }
+    .copyright-text {
+        font-size: 12px;
+        letter-spacing: 1.2px;
+    }
+}
